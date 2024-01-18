@@ -1,0 +1,29 @@
+.link-nav{
+    color: var(--color-marron-oscuro);
+    font-size: small;
+    margin: 0 30px;
+    position: relative;
+}
+.link-nav::after {
+    position: absolute;
+    content: "";
+    left: 50%;
+    bottom: -.3rem;
+    background-color: var(--color-blanco);
+    height: .1rem;
+    width: 0; 
+    transition: all ease-in-out .4s;
+    transform: translateX(-50%);
+    border-radius: .2rem;
+}
+.link-nav:hover::after{
+    width: 50%; 
+}
+.link-nav.active::after {
+    width: 100%;
+}
+@media screen and (max-width: 767px) {
+    .link-nav{
+        margin: 10px;
+    }
+}
