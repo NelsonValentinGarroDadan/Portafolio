@@ -1,16 +1,16 @@
-#Presentacion{
+#Inicio{
     background-color: var(--color-violeta-oscuro );
 }
-#Presentacion .avatar{
+#Inicio .avatar{
     text-align: right;
     height: 100%;
 }
-#Presentacion .avatar img{
+#Inicio .avatar img{
     height: 100%;
     filter: saturate(0.5);
     width: auto;
 }
-#Presentacion .content{
+#Inicio .content{
     position: absolute;
     top: 50%;
     transform: translateY(-50%);
@@ -18,8 +18,8 @@
     width: 500px;
     max-width: 80%;
 }
-#Presentacion .content .name,
-#Presentacion .content .job{
+#Inicio .content .name,
+#Inicio .content .job{
     font-size: 5em;
     font-family: Righteous;
     line-height: 1em;
@@ -32,15 +32,15 @@
     -webkit-text-fill-color: transparent;
     -webkit-background-clip: text;
 }
-#Presentacion .content .des{
+#Inicio .content .des{
  margin-top: 1.2em;
  width: 70%;
 }
-#Presentacion .content a{
+#Inicio .content a{
     margin: 1.2em 0 0 5em ;
     position: relative;
 }
-#Presentacion .content a::after{
+#Inicio .content a::after{
  position: absolute;
  content: "";
  height: 100%;
@@ -54,11 +54,11 @@
  border-radius: 3em;
  border: .1em solid transparent;
 }
-#Presentacion .content a:hover::after{
+#Inicio .content a:hover::after{
     border-color: var(--color-azul-claro);
     
 }
-#Presentacion .content i{
+#Inicio .content i{
     font-size: 10em;
     color: var(--color-azul-claro);
     position: absolute;
@@ -67,7 +67,7 @@
     transform: translate(100%,-5%);
 }
 @media screen and (max-width: 991px) {
-    #Presentacion .avatar img{
+    #Inicio .avatar img{
         transform: translateX(200px);
     }
 }
@@ -75,16 +75,19 @@
     body{
         font-size: 10px;
     }
-    #Presentacion .avatar img{
+    #Inicio .avatar img{
         transform: none;
     }
-    #Presentacion .content{
+    #Inicio .content{
         left: 20px;
     }
-    #Presentacion .content .name{
-        font-size: 4em;
+    #Inicio .content .name{
+        font-size: 5em;
     }
-    #Presentacion .content i{
+    #Inicio .content .job{
+        font-size: 3em;
+    }
+    #Inicio .content i{
         position: unset;
     }
 }

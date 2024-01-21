@@ -10,7 +10,7 @@ function EXP (){
           job: "Bachiller en Informática",
           company: "Colegio Nº40 'Héroes de Malvinas'",
           des:
-            "Me gradué en el Bachiller Orientado a la Informática, con sólidos conocimientos en los fundamentos de la programación. Durante este período, adquirí un enfoque práctico en el lenguaje de programación C#.",
+            "Me gradué en el Bachiller Orientado a la Informática, con sólidos conocimientos en los fundamentos de la programación. Durante este período, adquirí un enfoque práctico en el lenguaje de programación C# y C++.",
         },
         {
           time: "2021",

@@ -4,7 +4,7 @@ import Link from "./Link";
 function Header(){
     const [links, setLinks] = useState(
         [
-            {"name": "Presentacion", "active" : true},
+            {"name": "Inicio", "active" : true},
             {"name": "EXP" ,"active": false},
             {"name":"Habilidades" , "active" : false},
             {"name":"Proyectos" , "active" : false},
