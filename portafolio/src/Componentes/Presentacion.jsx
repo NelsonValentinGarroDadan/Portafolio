@@ -2,7 +2,7 @@ import React from "react";
 import '../Estilos/Presentacion.css'
 function Presentacion (){
     return(
-        <section className="tab" id="Presentacion" style={{display:"none"}}>
+        <section className="tab" id="Presentacion" >
             <div className="container">
                 <div className="avatar">
                     <img src='/Imagenes/avatar_sinbg.png'  alt=""/>
