@@ -38,7 +38,7 @@ function EXP (){
         },
       ];
     return(
-      <div className="tab" id="EXP" >
+      <section className="tab" id="EXP" >
           <div className="container">
                <div className="list">
                     {
@@ -55,7 +55,7 @@ function EXP (){
                     }
                </div>
           </div>
-      </div>
+      </section>
     );
 }
 

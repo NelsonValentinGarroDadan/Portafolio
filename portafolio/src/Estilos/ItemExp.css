@@ -35,7 +35,7 @@
     grid-row-end: 2;
     display: flex;
     flex-direction: column;
-    justify-content: end;
+    justify-content: flex-end;
 }
 #EXP .list .item:nth-child(odd) .time{
     grid-row-start: 3;
