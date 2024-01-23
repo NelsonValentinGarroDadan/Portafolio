@@ -1,0 +1,16 @@
+#Proyectos{
+    background-color: #cfbaba;
+    color: #444B57;
+}
+#Proyectos .list{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 30px;
+    padding: 50px;
+}
+#Proyectos .container{
+    overflow: auto;
+}
+::-webkit-scrollbar{
+    width: 0;
+}
