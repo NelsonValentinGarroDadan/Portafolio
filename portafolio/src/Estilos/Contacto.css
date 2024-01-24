@@ -1,0 +1,62 @@
+#Contacto{
+    background-color: #242330;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#Contacto .thank{
+    font-size: 5em;
+    font-weight: bold;
+    text-align: center;
+}
+#Contacto .container{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    padding:50px;
+}
+#Contacto .des{
+    width: 500px;
+    max-width: 80%;
+    text-align: center;
+    line-height: 1.8;
+}
+#Contacto .list{
+    text-align: center;
+}
+#Contacto .list .item{
+    display: inline-block;
+    margin: 10px 30px;
+}
+#Contacto .list .item a{
+    text-decoration: none;
+    color: var(--color-blanco);
+    position: relative;
+    margin-top: 10px;
+}
+#Contacto .des a{
+    position: relative;
+    margin: 10px;
+}
+#Contacto .des a::before{
+    position: absolute;
+    content: "";
+    height: 100%;
+    width: 100%;
+    transition: all ease-in-out .2s;
+    left: 0;
+    top: 0;
+    transform: translate(-17%,-10%);
+    background-color: transparent;
+    padding: .3em 2.5em;
+    border-radius: 3em;
+    border: .1em solid transparent;
+}
+#Contacto .des a:hover::before{
+    border-color: var(--color-azul-claro);
+    
+}
+#Contacto .list .item i{
+    margin-right: 5px;
+}

@@ -8,7 +8,7 @@ function Header(){
             {"name": "EXP" ,"active": false},
             {"name":"Habilidades" , "active" : false},
             {"name":"Proyectos" , "active" : false},
-            {"name":"Contactos" , "active" : false},
+            {"name":"Contacto" , "active" : false},
 
         ]
     );

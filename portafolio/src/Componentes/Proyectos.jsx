@@ -13,7 +13,7 @@ function Proyectos(){
         }
         ,
         {
-            "link" : "https://github.com/NelsonValentinGarroDadan/BiblotecaMobile",
+            "link" : "https://github.com/NelsonValentinGarroDadan/BibliotecaMobile",
             "img" : "/Imagenes/Proyectos/biblioteca.png",
             "name" : "Biblioteca Mobile",
             "des" : "Biblioteca Mobile es una aplicación Android desarrollada en Java que emula una biblioteca virtual. Su interfaz incluye un menú con todos los libros y una opción para cerrar la aplicación, siguiendo el patrón MVVM para una estructura eficiente.",
