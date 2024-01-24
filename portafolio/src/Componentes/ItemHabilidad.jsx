@@ -4,7 +4,7 @@ import '../Estilos/ItemHabilidad.css';
 function ItemHabilidad({name , icon, des}){
     return(
         <div className="item">
-            <img src={icon}/>
+            <img src={icon} alt={`${name}_icon`}/>
             <div className="name">{name}</div>
             <div className="des">{des}</div>
         </div>

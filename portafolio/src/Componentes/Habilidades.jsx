@@ -63,11 +63,6 @@ function Habilidades(){
       "icon": "/Imagenes/pug_icon.png",
       "des": "Familiaridad con el motor de plantillas Pug para simplificar la creación de vistas en aplicaciones web.",
     },
-    {
-      "name": "Metodologías Ágiles (SCRUM)",
-      "icon": "/Imagenes/scrum_icon.png",
-      "des": "Experiencia práctica en el uso de metodologías ágiles como SCRUM para la gestión de proyectos y equipos de desarrollo.",
-    },
   ];
     return(
         <section className="tab" id="Habilidades">
