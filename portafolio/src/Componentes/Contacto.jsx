@@ -11,16 +11,16 @@ function Contacto(){
                 <div className="des">
                 ¡Muchas gracias por visitar mi portafolio! Si tienes alguna pregunta, propuesta de colaboración o simplemente quieres charlar sobre tecnología, estaré encantado de escucharte. ¡No dudes en ponerte en contacto!
                     <br/>
-                    <a href="#Inicio" className="text-gradient">Ve mi presentacion</a>
+                    <a href="#Inicio" className="text-gradient link-nav">Ve mi presentacion</a>
                 </div>
                 <div className="list">
                     <div className="item">
                         <i className="fa-brands fa-linkedin"></i>
-                        <a href="www.linkedin.com/in/valentín-garro" >Valentin Garro</a>
+                        <a href="https://www.linkedin.com/in/valentín-garro" target="blank">Valentin Garro</a>
                     </div>
                     <div className="item">
-                    <i className="fa-solid fa-envelope"></i>
-                    <a href="mailto:nelsonvgarro@sanluis.edu.ar">nelsonvgarro@sanluis.edu.ar</a>
+                        <i className="fa-solid fa-envelope"></i>
+                        <a href="mailto:nelsonvgarro@sanluis.edu.ar">nelsonvgarro@sanluis.edu.ar</a>
                     </div>
                 </div>
             </div>

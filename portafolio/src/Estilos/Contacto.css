@@ -39,7 +39,7 @@
     position: relative;
     margin: 10px;
 }
-#Contacto .des a::before{
+#Contacto .des a::after{
     position: absolute;
     content: "";
     height: 100%;
@@ -53,7 +53,7 @@
     border-radius: 3em;
     border: .1em solid transparent;
 }
-#Contacto .des a:hover::before{
+#Contacto .des a:hover::after{
     border-color: var(--color-azul-claro);
     
 }

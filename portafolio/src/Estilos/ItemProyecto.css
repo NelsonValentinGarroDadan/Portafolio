@@ -53,3 +53,27 @@
 #Proyectos .list .item .job{
     font-weight: bold;
 }
+@media screen and (min-width: 991px) {
+    #Proyectos .list .item .des{
+        font-size: small;
+        height: 7em;
+    }
+}
+@media screen and (min-width: 768px) {
+    #Proyectos .list .item .des{
+        font-size: smaller;
+        height: 9em;
+    }
+}
+@media screen and (max-width: 767px) {
+    #Proyectos .list .item .des{
+        font-size: smaller;
+        height: 12em;
+    }
+}
+@media screen and (max-width: 576px) {
+    #Proyectos .list .item .des{
+        font-size: small;
+        height: 7em;
+    }
+}

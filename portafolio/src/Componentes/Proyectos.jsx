@@ -25,7 +25,7 @@ function Proyectos(){
             "link" : "https://github.com/NelsonValentinGarroDadan/inmobiliariaGarroAPI",
             "img" : "/Imagenes/Proyectos/inmobiliariaGarroApi.png",
             "name" : "Inmobiliaria Garro Api",
-            "des" : "Una API diseñada para ser consumida por una aplicación móvil. Realiza consultas a una base de datos simulando las operaciones de una inmobiliaria, con verificación mediante JWT.",
+            "des" : "API diseñada para ser consumida por una aplicación móvil. Utiliza Entity Framework. La API realiza consultas simulando las operaciones de una inmobiliaria y emplea JWT para la autenticación en el proceso de inicio de sesión.",
             "job" : "Back-end",
             "time" : "26/09/2023 ",
         }
@@ -60,7 +60,7 @@ function Proyectos(){
         {
             "link" : "https://github.com/NelsonValentinGarroDadan/inmobiliariaGarroAPI",
             "img" : "/Imagenes/Proyectos/inmobiliariaGarroApp.png",
-            "name" : "Inmobiliaria Garri App",
+            "name" : "Inmobiliaria Garro App",
             "des" : "Aplicación móvil para Android que consume la API anterior. Permite a los propietarios consultar y subir propiedades, realizar llamadas y gestionar su información. Desarrollada en Java con Retrofit.",
             "job" : "Back-end / Mobile",
             "time" : "15/10/2023 ",

@@ -3,6 +3,9 @@
         45deg, #212632, #242a34, #3c4c5a
     );
     background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 #EXP .container{
     overflow: auto;

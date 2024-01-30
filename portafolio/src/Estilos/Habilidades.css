@@ -14,3 +14,22 @@
 #Habilidades .container{
     overflow: auto;
 }
+@media screen and (max-width: 767px) {
+    #Habilidades .list {
+        grid-template-columns: repeat(2 , 1fr); 
+        padding: 0 ;
+    }
+    #Habilidades .list .item{
+        background-color: transparent ;
+    }
+    #Habilidades .list .item:nth-child(4n),
+    #Habilidades .list .item:nth-child(4n+1) {
+        background-color: #3f2525 ;
+    }
+  
+}
+@media screen and (min-width: 767px) {
+    #Habilidades .list .item:nth-child(odd){
+    background-color: #3f2525;
+}
+}

@@ -27,3 +27,25 @@
     margin: auto;
     position: relative;
 }
+.tab{
+    position: fixed;
+    inset: 0 0 0 0;
+    z-index: 1;
+}
+.tab.active {
+    --x: 50%;
+    --y: 50%;
+    clip-path: circle(
+        0px at var(--x) var(--y)
+    );
+    animation: showTab 1s ease-in-out 1 forwards;
+}
+@keyframes showTab {
+    to{
+        clip-path: circle(
+            200% at 50% 50%
+        );
+    }
+    
+}
+

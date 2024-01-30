@@ -1,12 +1,13 @@
 #Inicio{
     background-color: var(--color-violeta-oscuro );
+    z-index: 2;
 }
 #Inicio .avatar{
     text-align: right;
     height: 100%;
 }
 #Inicio .avatar img{
-    height: 100%;
+    height: 100vh;
     filter: saturate(1.5);
     width: auto;
 }
@@ -59,35 +60,38 @@
     
 }
 #Inicio .content i{
-    font-size: 10em;
+    font-size: 9em;
     color: var(--color-azul-claro);
     position: absolute;
-    top: 0;
-    right: 0;
+    top: -.3em;
+    right: .4em;
     transform: translate(100%,-5%);
 }
-@media screen and (max-width: 991px) {
-    #Inicio .avatar img{
-        transform: translateX(200px);
-    }
-}
 @media screen and (max-width: 767px) {
-    body{
-        font-size: 10px;
-    }
     #Inicio .avatar img{
         transform: none;
     }
     #Inicio .content{
-        left: 20px;
+        left: 20px ;
     }
     #Inicio .content .name{
-        font-size: 5em;
+        font-size: 5em ;
     }
     #Inicio .content .job{
-        font-size: 3em;
+        font-size: 3em ;
     }
     #Inicio .content i{
-        position: unset;
+        display: none;
+    }
+}
+@media screen and (max-width: 576px) {
+    #Inicio .avatar img {
+        filter: blur(10px) ;
+    }
+}
+
+@media screen and (max-width: 991px) {
+    #Inicio .avatar img{
+        transform: translateX(50px); 
     }
 }
