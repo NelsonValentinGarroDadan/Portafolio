@@ -17,7 +17,9 @@
     width: 100%;
     min-height: 100vh;
     overflow: hidden;
-    position: relative;
+    position:fixed;
+    inset: 0 0 0 0;
+    z-index: 1;
 }
 .tab .container{
     width: 1140px;
@@ -26,11 +28,6 @@
     padding-top: 50px;
     margin: auto;
     position: relative;
-}
-.tab{
-    position: fixed;
-    inset: 0 0 0 0;
-    z-index: 1;
 }
 .tab.active {
     --x: 50%;

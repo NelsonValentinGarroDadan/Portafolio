@@ -11,7 +11,7 @@ function Contacto(){
                 <div className="des">
                 ¡Muchas gracias por visitar mi portafolio! Si tienes alguna pregunta, propuesta de colaboración o simplemente quieres charlar sobre tecnología, estaré encantado de escucharte. ¡No dudes en ponerte en contacto!
                     <br/>
-                    <a href="#Inicio" className="text-gradient link-nav">Ve mi presentacion</a>
+                    <a data-tab="Inicio" className="text-gradient link-nav">Ve mi presentacion</a>
                 </div>
                 <div className="list">
                     <div className="item">

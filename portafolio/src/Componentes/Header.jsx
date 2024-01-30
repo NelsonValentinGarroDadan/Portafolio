@@ -1,8 +1,8 @@
-import {React , useState} from "react";
+import {React } from "react";
 import '../Estilos/Header.css'
 import Link from "./Link";
 function Header(){
-    const [links, setLinks] = useState(
+    const links=
         [
             {"name": "Inicio", "active" : true},
             {"name": "EXP" ,"active": false},
@@ -10,8 +10,7 @@ function Header(){
             {"name":"Proyectos" , "active" : false},
             {"name":"Contacto" , "active" : false},
 
-        ]
-    );
+        ];
    return (
         <header>
             <nav>
@@ -20,7 +19,6 @@ function Header(){
                         key = {link.name}
                         name ={link.name}
                         active = {link.active}
-                        click = {setLinks}
                     /> 
                     
                 ))

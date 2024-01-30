@@ -1,11 +1,8 @@
 import React from "react";
 import '../Estilos/Link.css'
-function Link ({name , active, click}){
+function Link ({name , active}){
     return(
-        <a data-tab={`${name}`} className={active? "link-nav active" : "link-nav"} onClick={() => click((prevLinks) => {
-            const updatedLinks = prevLinks.map(link => ({ ...link, active: link.name === name }));
-            return updatedLinks;
-        })}>{name}</a>
+        <a data-tab={`${name}`} className={active? "link-nav active" : "link-nav"} >{name}</a>
     );
 }
 

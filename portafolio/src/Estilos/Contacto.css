@@ -60,3 +60,8 @@
 #Contacto .list .item i{
     margin-right: 5px;
 }
+@media screen and (max-width:991px) {
+    #Contacto .des a::after{
+        border-color: var(--color-azul-claro);
+    }
+}

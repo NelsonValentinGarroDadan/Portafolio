@@ -1,6 +1,7 @@
 #Proyectos{
     background-color: #cfbaba;
     color: #444B57;
+    overflow: auto;
 }
 #Proyectos .list{
     display: grid;

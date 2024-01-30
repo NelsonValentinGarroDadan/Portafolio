@@ -94,4 +94,7 @@
     #Inicio .avatar img{
         transform: translateX(50px); 
     }
+    #Inicio .content a::after{
+        border-color: var(--color-azul-claro);
+    }
 }

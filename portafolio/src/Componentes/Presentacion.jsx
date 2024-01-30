@@ -14,7 +14,7 @@ function Presentacion (){
                     </div>
                     <div className="des">
                     ¡Hola! Soy Valentin Garro, estudiante de la Tecnicatura Universitaria de Desarrollo de Software en la Universidad de la Punta, San Luis, Argentina. Me considero un apasionado desarrollador web con habilidades que abarcan desde HTML, CSS, JavaScript, Node.js, C#, C++, y .NET hasta Java, SQL, React y Android Studio. ¡Estoy listo para enfrentar nuevos desafíos y aprovechar oportunidades de aprendizaje! <br></br>
-                        <a data-tab="habilidades" className="text-gradient link-nav">
+                        <a data-tab="Habilidades"  className="text-gradient link-nav">
                             Ve mis habilidades
                         </a>
                     </div>

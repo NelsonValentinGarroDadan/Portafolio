@@ -3,6 +3,7 @@
         45deg, #3A2530 , #171514, #312726
     );
     background-size: cover;
+    overflow: auto;
 }
 #Habilidades .list{
     height: 100%;
