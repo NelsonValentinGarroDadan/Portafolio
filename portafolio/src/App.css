@@ -4,14 +4,25 @@
 :root{
     /*Colores*/
     --color-violeta-oscuro : #241326;
-    --color-rosa-claro : #ead4cd;
     --color-rosa-oscuro : #b55d65;
-    --color-azul-claro : #8e8f95;
-    --color-violeta-claro : #888294;
+    --color-gris-claro : #8e8f95;
     --color-blanco : #fff1f1;
-    --color-amarrillo-claro : #fadda0;
-    --color-azul-pastel : #448eab;
-    --color-amarillo-fuerte : #fbb040;
+    --color-azuloscuro-contact-bg : #242330;
+    --color-naranja-claro : #d3ccc0;
+    --color-naranja-fuerte :#251c0d;
+    --color-marron-claro-bg : #35342c;
+    --color-azul-oscuro-bg : #212632;
+    --color-azulgris-bg : #3c4c5a;
+    --color-azulgris-oscuro-bg:#242a34;
+    --color-azulgris-bg-exp : #444b57;
+    --color-azulgris-item-exp : #16222D;
+    --color-naranjarosa: #E4454A;
+    --color-violeta: #CA3EA7;
+    --color-violeta-oscuro-bg: #3A2530 ;
+    --color-negroanaranjado-bg : #171514;
+    --color-marron-oscuro-bg : #312726;
+    --color-marron-oscuro-item-bg : #3f2525;
+    
 }
 .tab{
     width: 100%;

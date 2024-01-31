@@ -1,5 +1,5 @@
 #Contacto{
-    background-color: #242330;
+    background-color: var( --color-azuloscuro-contact-bg);
     display: flex;
     align-items: center;
     justify-content: center;

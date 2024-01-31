@@ -6,10 +6,10 @@
     gap: 20px;
 }
 #EXP .list .item i{
-    background-color: #444b57;
+    background-color: var(--color-azulgris-bg-exp);
     width: 50px;
     font-size: 2em;
-    color: #16222D;
+    color: var(--color-azulgris-item-exp);
     display: flex;
     align-items: center;
     justify-content: center;

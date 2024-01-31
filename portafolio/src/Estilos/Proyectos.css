@@ -1,6 +1,6 @@
 #Proyectos{
-    background-color: #cfbaba;
-    color: #444B57;
+    background-color: var(--color-marron-claro-bg);
+    color: var(--color-azulgris-bg-exp);
     overflow: auto;
 }
 #Proyectos .list{

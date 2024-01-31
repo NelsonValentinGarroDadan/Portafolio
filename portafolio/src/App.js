@@ -5,7 +5,7 @@ import EXP from './Componentes/EXP';
 import Habilidades from './Componentes/Habilidades';
 import Proyectos from './Componentes/Proyectos';
 import Contacto from './Componentes/Contacto';
-import TabSwitcher from './Componentes/TabSwitcher';
+import TabAnimacion from './Componentes/TabAnimacion';
 
 function App() {
   return (
@@ -16,7 +16,7 @@ function App() {
       <Habilidades />
       <Proyectos />
       <Contacto />
-      <TabSwitcher />
+      <TabAnimacion />
     </div>
   );
 }

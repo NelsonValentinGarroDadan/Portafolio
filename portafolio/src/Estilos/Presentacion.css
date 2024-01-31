@@ -27,7 +27,7 @@
 }
 .text-gradient{
     background-image: linear-gradient(
-        to right , #E4454A, #CA3EA7
+        to right , var( --color-naranjarosa), var(--color-violeta)
     ) ;
     display: inline-block;
     -webkit-text-fill-color: transparent;
@@ -56,12 +56,12 @@
  border: .1em solid transparent;
 }
 #Inicio .content a:hover::after{
-    border-color: var(--color-azul-claro);
+    border-color: var(--color-gris-claro);
     
 }
 #Inicio .content i{
     font-size: 9em;
-    color: var(--color-azul-claro);
+    color: var(--color-gris-claro);
     position: absolute;
     top: -.3em;
     right: .4em;
@@ -95,6 +95,6 @@
         transform: translateX(50px); 
     }
     #Inicio .content a::after{
-        border-color: var(--color-azul-claro);
+        border-color: var(--color-gris-claro);
     }
 }
