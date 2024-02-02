@@ -6,7 +6,7 @@ function Presentacion (){
         <section className="tab active" id="Inicio" >
             <div className="container">
                 <div className="avatar">
-                    <img src='/Imagenes/avatar_sinbg.png'  alt=""/>
+                    <img src='./Imagenes/avatar_sinbg.png'  alt=""/>
                 </div>
                 <div className="content">
                     <div className="name">Valentin Garro</div>
