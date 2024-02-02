@@ -67,6 +67,24 @@
     right: .4em;
     transform: translate(100%,-5%);
 }
+
+/* Animaciones */
+
+#Inicio.active .container .content{
+    animation: slideRigthTop 1s ease-out;
+}
+#Inicio.active .avatar img{
+    animation: slideTop 1s ease-out;
+}
+#Inicio.active .content .des{
+    animation: slideRigth 1s ease-out;
+}
+#Inicio.active .content a{
+    animation: slideRigth 1.3s ease-out;
+}
+
+
+/* Media querys */
 @media screen and (max-width: 767px) {
     #Inicio .avatar img{
         transform: none;
@@ -91,9 +109,6 @@
 }
 
 @media screen and (max-width: 991px) {
-    #Inicio .avatar img{
-        transform: translateX(50px); 
-    }
     #Inicio .content a::after{
         border-color: var(--color-gris-claro);
     }

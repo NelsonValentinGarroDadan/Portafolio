@@ -60,6 +60,17 @@
 #Contacto .list .item i{
     margin-right: 5px;
 }
+/* Animaciones */
+#Contacto.active .thank{
+    animation: slideLeft 1s ease-out;
+}
+#Contacto.active .des{
+    animation: slideLeft 1.1s ease-out;
+}
+#Contacto.active .list{
+    animation: slideLeft 1.2s ease-out;
+}
+/* Media Querys */
 @media screen and (max-width:991px) {
     #Contacto .des a::after{
         border-color: var(--color-azul-claro);

@@ -12,6 +12,7 @@ header nav{
     display: flex;
     justify-content: space-around;
     align-items: center;
+    transition: all ease-in-out;
 }
 @media screen and (max-width: 576px) {
     header nav  {

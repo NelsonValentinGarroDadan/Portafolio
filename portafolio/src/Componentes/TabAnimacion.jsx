@@ -28,13 +28,9 @@ const TabSwitcher = () => {
       /*Estilo de los tabs */
       activeOld = document.querySelector('.tab.active');
       
-    
-      if (activeOld){ 
-        activeOld.classList.remove('active')
-        window.scrollTo(0, 0);
-      };
-
+      
       if (valueTab && valueTab !== active) {
+        if (activeOld) activeOld.classList.remove('active');
         tabActive = document.getElementById(valueTab);
         zIndex++;
         tabActive.style.zIndex = zIndex;

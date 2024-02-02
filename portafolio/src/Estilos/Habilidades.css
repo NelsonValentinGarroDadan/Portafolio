@@ -15,6 +15,10 @@
 #Habilidades .container{
     overflow: auto;
 }
+/* Animaciones */
+#Habilidades.active .list{
+    animation: slideBottom 1s ease-out;
+}
 @media screen and (max-width: 767px) {
     #Habilidades .list {
         grid-template-columns: repeat(2 , 1fr); 

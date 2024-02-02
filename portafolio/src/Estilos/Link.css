@@ -2,6 +2,7 @@
     color: var(--color-blanco);
     font-size: small;
     position: relative;
+    transition: all ease-in-out;
 }
 .link-nav::after {
     position: absolute;

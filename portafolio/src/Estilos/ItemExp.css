@@ -42,4 +42,18 @@
     grid-row-end: 4;
     align-items: start;
 }
+/* Animaciones */
+#EXP.active .list .item:nth-child(odd) .content{ 
+    animation: slideTop 1s ease-out;
+}
+#EXP.active .list .item:nth-child(odd) .time{ 
+    animation: slideBottom 1.3s ease-out;
+}
+#EXP.active .list .item:nth-child(even) .content{ 
+    animation: slideBottom 1s ease-out;
+}
+#EXP.active .list .item:nth-child(even) .time{ 
+    animation: slideTop 1.3s ease-out;
+}
+
 

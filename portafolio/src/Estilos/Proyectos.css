@@ -15,6 +15,11 @@
 ::-webkit-scrollbar{
     width: 0;
 }
+/* Animaciones */
+#Proyectos.active .list{
+    animation: slideBottom 1s ease-out;
+}
+/* Media querys */
 @media screen and (max-width: 767px) {
     #Proyectos .list{
         grid-template-columns: repeat(2 , 1fr) ; 
