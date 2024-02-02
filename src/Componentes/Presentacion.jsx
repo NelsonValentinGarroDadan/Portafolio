@@ -1,8 +1,9 @@
 import React from "react";
 import '../Estilos/Presentacion.css'
 function Presentacion (){
+   
     return(
-        <section className="tab" id="Inicio" >
+        <section className="tab active" id="Inicio" >
             <div className="container">
                 <div className="avatar">
                     <img src='/Imagenes/avatar_sinbg.png'  alt=""/>

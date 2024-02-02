@@ -41,17 +41,45 @@ const TabSwitcher = () => {
         tabActive.classList.add('active');
       }
     };
-
+     document.addEventListener('DOMContentLoaded', function() {
+      console.log("hola");
+        const tabElement = document.querySelectorAll('.tab');
+        tabElement.forEach((e)=>{
+            console.log(e);
+            e.classList.add('initialized');
+        });
+        
+    });
     linksNav.forEach((a) => {
       a.addEventListener('click', handleClick);
     });
-
+    document.addEventListener('DOMContentLoaded', function() {
+      const tabElement = document.querySelectorAll('.tab');
+      tabElement.forEach((e)=>{
+          console.log(e);
+          e.classList.add('initialized');
+      });
+      
+  });
     return () => {
       linksNav.forEach((a) => {
         a.removeEventListener('click', handleClick);
       });
     };
   }, []); 
+//Animacion carga de pagina
+  useEffect(() => {
+    const initializeTabs = () => {
+      const tabElements = document.querySelectorAll('.tab');
+      tabElements.forEach((tabElement) => {
+        tabElement.classList.add('initialized');
+      });
+    };
+    initializeTabs();
+    return () => {
+    };
+  }, []); 
+
 
   return null; 
 };

@@ -39,7 +39,12 @@
     height: 100%;
     padding-top: 50px;
     margin: auto;
-    position: relative;
+}
+.tab .container{
+  visibility: hidden;
+}
+.tab.initialized.active .container{
+  visibility: visible;
 }
 .tab.active {
     --x: 50%;
@@ -85,7 +90,7 @@
 }
 @keyframes slideTop{
     from {
-        transform: translateY(-200%);
+        transform: translateY(-100%);
       }
       to {
         transform: translateY(0);
@@ -93,7 +98,7 @@
 }
 @keyframes slideBottom{
     from {
-        transform: translateY(200%);
+        transform: translateY(100%);
       }
       to {
         transform: translateY(0);

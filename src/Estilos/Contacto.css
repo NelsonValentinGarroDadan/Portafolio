@@ -44,7 +44,7 @@
     content: "";
     height: 100%;
     width: 100%;
-    transition: all ease-in-out .2s;
+    transition: none;
     left: 0;
     top: 0;
     transform: translate(-17%,-10%);
@@ -52,6 +52,9 @@
     padding: .3em 2.5em;
     border-radius: 3em;
     border: .1em solid transparent;
+}
+#Contacto.active .des a::after{
+    transition: all ease-in-out .2s;
 }
 #Contacto .des a:hover::after{
     border-color: var(--color-azul-claro);
