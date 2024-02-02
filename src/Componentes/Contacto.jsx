@@ -22,6 +22,10 @@ function Contacto(){
                         <i className="fa-solid fa-envelope"></i>
                         <a href="mailto:nelsonvgarro@sanluis.edu.ar">nelsonvgarro@sanluis.edu.ar</a>
                     </div>
+                    <div className="item">
+                    <i className="fa-solid fa-file"></i>
+                        <a href="/CV-IT.pdf" download="CV-IT" target="blank"  rel="noopener noreferrer">Ve mi CV!</a>
+                    </div>
                 </div>
             </div>
 

@@ -61,3 +61,8 @@
         height: 7em;
     }
 }
+@media screen and (max-width: 480px) {
+    #Proyectos .list .item .des{
+        height:auto;
+    }
+}
