@@ -1,6 +1,7 @@
 {
   "name": "portafolio",
   "version": "0.1.0",
+  "homepage": "https://NelsonValentinGarroDadan.github.io/Portafolio/build",
   "private": true,
   "dependencies": {
     "@testing-library/jest-dom": "^5.17.0",
