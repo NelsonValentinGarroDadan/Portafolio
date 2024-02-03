@@ -16,8 +16,10 @@
     width: 0;
 }
 /* Animaciones */
-#Proyectos.active .list{
-    animation: slideBottom 1s ease-out;
+@media screen and (min-width:500px) {
+    #Proyectos.active .list{
+        animation: slideBottom 1s ease-out;
+    }
 }
 /* Media querys */
 @media screen and (max-width: 767px) {

@@ -16,9 +16,12 @@
     overflow: auto;
 }
 /* Animaciones */
-#Habilidades.active .list{
-    animation: slideBottom 1s ease-out;
+@media screen and (min-width:500px) {
+    #Habilidades.active .list{
+        animation: slideBottom 1s ease-out;
+    }
 }
+/* Media querys */
 @media screen and (max-width: 767px) {
     #Habilidades .list {
         grid-template-columns: repeat(2 , 1fr); 

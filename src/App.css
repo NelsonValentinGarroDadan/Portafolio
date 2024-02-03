@@ -40,12 +40,7 @@
     padding-top: 50px;
     margin: auto;
 }
-.tab .container{
-  visibility: hidden;
-}
-.tab.initialized.active .container{
-  visibility: visible;
-}
+
 .tab.active {
     --x: 50%;
     --y: 50%;
@@ -55,6 +50,14 @@
     animation: showTab 1s ease-in-out 1 forwards;
 }
 /* Animaciones */
+@media screen and (min-width:500px) {
+  .tab .container{
+    visibility: hidden;
+  }
+  .tab.initialized.active .container{
+    visibility: visible;
+  }
+}
 @keyframes showTab {
     to{
         clip-path: circle(
