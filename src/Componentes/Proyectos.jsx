@@ -58,7 +58,7 @@ function Proyectos(){
         
         ,
         {
-            "link" : "https://github.com/NelsonValentinGarroDadan/inmobiliariaGarroAPI",
+            "link" : "https://github.com/NelsonValentinGarroDadan/inmobiliariaGarrioApp",
             "img" : "./Imagenes/Proyectos/inmobiliariaGarroApp.png",
             "name" : "Inmobiliaria Garro App",
             "des" : "Aplicación móvil para Android que consume la API anterior. Permite a los propietarios consultar y subir propiedades, realizar llamadas y gestionar su información. Desarrollada en Java con Retrofit.",

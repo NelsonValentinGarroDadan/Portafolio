@@ -47,7 +47,8 @@
     );
     animation: showTab 1s ease-in-out 1 forwards;
 }
-/* Animaciones */
+
+/* Media Querys */
 @media screen and (min-width:500px) {
   .tab .container{
     visibility: hidden;
@@ -56,6 +57,7 @@
     visibility: visible;
   }
 }
+/* Animaciones */
 @keyframes showTab {
     to{
         clip-path: circle(
