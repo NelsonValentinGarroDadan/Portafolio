@@ -1,5 +1,6 @@
 import React from "react";
 import '../Estilos/Contacto.css';
+import { FaLinkedin, FaEnvelope , FaFile} from "react-icons/fa";
 
 function Contacto(){
     return(
@@ -15,15 +16,15 @@ function Contacto(){
                 </div>
                 <div className="list">
                     <div className="item">
-                        <i className="fa-brands fa-linkedin"></i>
+                        <FaLinkedin />
                         <a href="https://www.linkedin.com/in/valentín-garro" target="blank">Valentin Garro</a>
                     </div>
                     <div className="item">
-                        <i className="fa-solid fa-envelope"></i>
+                        <FaEnvelope />
                         <a href="mailto:nelsonvgarro@sanluis.edu.ar">nelsonvgarro@sanluis.edu.ar</a>
                     </div>
                     <div className="item">
-                    <i className="fa-solid fa-file"></i>
+                        <FaFile />
                         <a href="./CV-IT.pdf" download="CV-IT" target="blank"  rel="noopener noreferrer">Ve mi CV!</a>
                     </div>
                 </div>
