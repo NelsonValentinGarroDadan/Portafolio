@@ -1,0 +1,2 @@
+#EXP{align-items:center;background-image:linear-gradient(45deg,var(--color-azul-oscuro-bg),var(--color-azulgris-oscuro-bg),var(--color-azulgris-bg ));background-size:cover;display:flex;justify-content:center}#EXP .container{overflow:auto}#EXP .list{display:flex;gap:20px;height:100%;justify-content:left;padding-left:50px;position:relative;width:-webkit-max-content;width:max-content;z-index:1}#EXP .list:before{background-color:var(--color-azulgris-bg-exp);content:"";height:2px;position:absolute;top:50%;width:100%;z-index:-1}
+/*# sourceMappingURL=419.83b52b18.chunk.css.map*/

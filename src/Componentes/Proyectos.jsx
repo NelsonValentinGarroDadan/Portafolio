@@ -1,6 +1,6 @@
-import React from "react";
+import React , {lazy} from "react";
 import '../Estilos/Proyectos.css';
-import ItemProyecto from "./ItemProyecto";
+const ItemProyecto = lazy(()=>import('./ItemProyecto'));
 function Proyectos(){
     const proyects =[
         {

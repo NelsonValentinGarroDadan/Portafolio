@@ -1,6 +1,7 @@
-import React from "react";
-import ItemHabilidad from "./ItemHabilidad";
+import {React , lazy} from "react";
 import '../Estilos/Habilidades.css';
+const ItemHabilidad = lazy(()=>import('./ItemHabilidad')) ;
+
 function Habilidades(){
   const skills = [
     {

@@ -1,0 +1,2 @@
+"use strict";(self.webpackChunkportafolio=self.webpackChunkportafolio||[]).push([[139],{139:(a,n,e)=>{e.r(n),e.d(n,{default:()=>l});e(791);var t=e(184);const l=function(a){let{name:n,active:e}=a;return(0,t.jsx)("a",{"data-tab":n,href:"#".concat(n),className:e?"link link-nav active":"link link-nav",children:n})}}}]);
+//# sourceMappingURL=139.1dfb9ec1.chunk.js.map

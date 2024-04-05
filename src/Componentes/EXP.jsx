@@ -1,6 +1,7 @@
-import React from "react";
-import ItemExp from "./ItemExp";
+import {React, lazy } from "react";
 import '../Estilos/EXP.css';
+const ItemExp = lazy(()=>import('./ItemExp')) ;
+
 
 function EXP (){
     const experience = [

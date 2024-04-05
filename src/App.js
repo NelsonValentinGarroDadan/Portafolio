@@ -1,11 +1,12 @@
 import './App.css';
-import Header from './Componentes/Header';
-import Presentacion from './Componentes/Presentacion';
-import EXP from './Componentes/EXP';
-import Habilidades from './Componentes/Habilidades';
-import Proyectos from './Componentes/Proyectos';
-import Contacto from './Componentes/Contacto';
-import TabAnimacion from './Componentes/TabAnimacion';
+import {lazy} from 'react';
+const Header = lazy(()=>import( './Componentes/Header'));
+const Presentacion = lazy(()=>import( './Componentes/Presentacion'));
+const EXP = lazy(()=>import( './Componentes/EXP'));
+const Habilidades = lazy(()=>import( './Componentes/Habilidades'));
+const Proyectos = lazy(()=>import( './Componentes/Proyectos'));
+const Contacto = lazy(()=>import( './Componentes/Contacto'));
+const TabAnimacion = lazy(()=>import( './Componentes/TabAnimacion'));
 function App() {
   return (
     <div className="App">

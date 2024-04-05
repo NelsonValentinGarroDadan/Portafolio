@@ -1,6 +1,6 @@
-import {React } from "react";
+import {React , lazy } from "react";
 import '../Estilos/Header.css'
-import Link from "./Link";
+const Link = lazy (()=>import('./Link'));
 function Header(){
     const links=
         [
