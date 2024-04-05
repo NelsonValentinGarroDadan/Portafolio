@@ -5,6 +5,7 @@
 #Inicio .avatar{
     text-align: right;
     height: 100%;
+    width: auto;
 }
 #Inicio .avatar img{
     height: 100vh;

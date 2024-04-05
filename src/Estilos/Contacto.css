@@ -64,7 +64,7 @@
     border-color: var(--color-azul-claro);
     
 }
-#Contacto .list .item i{
+#Contacto .list .item svg{
     margin-right: 5px;
 }
 /* Animaciones */
