@@ -1,12 +1,13 @@
 import React from "react";
 import '../Estilos/Presentacion.css'
+import { FaQuoteRight } from "react-icons/fa";
 function Presentacion (){
    
     return(
         <section className="tab active" id="Inicio" >
             <div className="container">
                 <div className="avatar">
-                    <img src='./Imagenes/avatar_sinbg.png'  alt=""/>
+                    <img src='./Imagenes/avatar_sinbg.AVIF'  alt="avtar-pinguino"/>
                 </div>
                 <div className="content">
                     <div className="name">Valentin Garro</div>
@@ -19,7 +20,7 @@ function Presentacion (){
                             Ve mis habilidades
                         </a>
                     </div>
-                    <i className="fa-solid fa-quote-right"></i>
+                    <FaQuoteRight className="comillas"/>
                 </div>
             </div>
         </section>

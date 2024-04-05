@@ -10,16 +10,16 @@ const TabSwitcher = () => {
 
     const handleClick = (e) => {
       e.preventDefault();
-      valueTab = e.target.dataset.tab;
+      valueTab = e.target.parentElement.parentElement.dataset.tab? e.target.parentElement.parentElement.dataset.tab : e.target.dataset.tab;
       /*Estilo de los links */
       linkActiveOld = document.querySelector('.link.active');
-      
-      if(e.target.innerHTML === 'Ve mis habilidades'){
+      let target = e.target.parentElement.parentElement ? e.target.parentElement.parentElement : e.target;
+      if(target.innerHTML === 'Ve mis habilidades'){
         linkActive = linksHeader[2];
       }else if(e.target.innerHTML === 'Ve mi presentacion'){
         linkActive = linksHeader[0];
       }else{
-        linkActive = e.target;
+        linkActive = target;
       }
       
       if (linkActiveOld) linkActiveOld.classList.remove('active');
@@ -41,22 +41,12 @@ const TabSwitcher = () => {
         tabActive.classList.add('active');
       }
     };
-     document.addEventListener('DOMContentLoaded', function() {
-      console.log("hola");
-        const tabElement = document.querySelectorAll('.tab');
-        tabElement.forEach((e)=>{
-            console.log(e);
-            e.classList.add('initialized');
-        });
-        
-    });
     linksNav.forEach((a) => {
       a.addEventListener('click', handleClick);
     });
     document.addEventListener('DOMContentLoaded', function() {
       const tabElement = document.querySelectorAll('.tab');
       tabElement.forEach((e)=>{
-          console.log(e);
           e.classList.add('initialized');
       });
       

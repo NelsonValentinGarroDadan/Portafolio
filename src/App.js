@@ -6,7 +6,6 @@ import Habilidades from './Componentes/Habilidades';
 import Proyectos from './Componentes/Proyectos';
 import Contacto from './Componentes/Contacto';
 import TabAnimacion from './Componentes/TabAnimacion';
-
 function App() {
   return (
     <div className="App">

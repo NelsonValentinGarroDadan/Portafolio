@@ -61,7 +61,7 @@
 #Inicio .content a:hover::after{
     border-color: var(--color-gris-claro);
 }
-#Inicio .content i{
+#Inicio .content .comillas{
     font-size: 9em;
     color: var(--color-gris-claro);
     position: absolute;
