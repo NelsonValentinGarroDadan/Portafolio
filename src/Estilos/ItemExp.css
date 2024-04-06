@@ -5,15 +5,22 @@
     grid-template-rows: 1fr 50px 1fr;
     gap: 20px;
 }
-#EXP .list .item i{
+#EXP .list .item .contenedorSvg{
     background-color: var(--color-azulgris-bg-exp);
+    width: 50px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+}
+#EXP .list .item svg{
     width: 50px;
     font-size: 2em;
     color: var(--color-azulgris-item-exp);
     display: flex;
     align-items: center;
     justify-content: center;
-    border-radius: 50%;
 }
 #EXP .list .item .time{
     font-size: large;

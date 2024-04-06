@@ -1,5 +1,6 @@
 import {React, lazy } from "react";
 import '../Estilos/EXP.css';
+import { FaGraduationCap, FaBook, FaReact} from "react-icons/fa";
 const ItemExp = lazy(()=>import('./ItemExp')) ;
 
 
@@ -7,7 +8,7 @@ function EXP (){
     const experience = [
         {
           time: "2020",
-          icon: "fa-solid fa-graduation-cap",
+          icon: FaGraduationCap,
           job: "Bachiller en Informática",
           company: "Colegio Nº40 'Héroes de Malvinas'",
           des:
@@ -15,7 +16,7 @@ function EXP (){
         },
         {
           time: "2021",
-          icon: "fa-solid fa-book",
+          icon: FaBook,
           job: "Curso de Fundamentos de la Programación",
           company: "Argentina Programa #SePrograma",
           des:
@@ -23,7 +24,7 @@ function EXP (){
         },
         {
           time: "2021",
-          icon: "fa-solid fa-book",
+          icon:FaBook,
           job: "Curso de Fundamentos de HTML, CSS y JavaScript",
           company: "Plataforma de cursos online",
           des:
@@ -31,7 +32,7 @@ function EXP (){
         },
         {
           time: "2023",
-          icon: "fa-brands fa-react",
+          icon: FaReact,
           job: "Curso de Introducción a React",
           company: "Plataforma de cursos online",
           des:

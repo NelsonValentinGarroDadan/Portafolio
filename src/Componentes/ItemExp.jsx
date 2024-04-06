@@ -1,12 +1,14 @@
 import React from "react";
 import '../Estilos/ItemExp.css';
-function ItemExp({time,icon,job,company,des}){
+function ItemExp({time,icon:Icon,job,company,des}){
     return(
         <div className="item">
             <div className="time">
                 {time}
             </div>
-            <i className={icon}></i>
+            <div className="contenedorSvg">
+                <Icon /> 
+            </div>
             <div className="content">
                 <div className="job">
                     {job}
