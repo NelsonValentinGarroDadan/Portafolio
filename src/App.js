@@ -2,7 +2,7 @@ import './App.css';
 import {lazy} from 'react';
 const Header = lazy(()=>import( './Componentes/Header'));
 const Presentacion = lazy(()=>import( './Componentes/Presentacion'));
-const EXP = lazy(()=>import( './Componentes/EXP'));
+const Educacion = lazy(()=>import( './Componentes/Educacion'));
 const Habilidades = lazy(()=>import( './Componentes/Habilidades'));
 const Proyectos = lazy(()=>import( './Componentes/Proyectos'));
 const Contacto = lazy(()=>import( './Componentes/Contacto'));
@@ -12,7 +12,7 @@ function App() {
     <div className="App">
       <Header />
       <Presentacion />
-      <EXP />
+      <Educacion  />
       <Habilidades />
       <Proyectos />
       <Contacto />

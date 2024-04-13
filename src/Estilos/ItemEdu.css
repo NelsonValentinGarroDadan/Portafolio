@@ -1,11 +1,11 @@
-#EXP .list .item{
+#Educacion .list .item{
     width: 200px;
     flex-shrink: 0;
     display: grid;
     grid-template-rows: 1fr 50px 1fr;
     gap: 20px;
 }
-#EXP .list .item .contenedorSvg{
+#Educacion .list .item .contenedorSvg{
     background-color: var(--color-azulgris-bg-exp);
     width: 50px;
     height: 50px;
@@ -14,7 +14,7 @@
     justify-content: center;
     border-radius: 50%;
 }
-#EXP .list .item svg{
+#Educacion .list .item svg{
     width: 50px;
     font-size: 2em;
     color: var(--color-azulgris-item-exp);
@@ -22,45 +22,45 @@
     align-items: center;
     justify-content: center;
 }
-#EXP .list .item .time{
+#Educacion .list .item .time{
     font-size: large;
     display: flex;
     align-items: flex-end;
 }
-#EXP .list .item .content .job{
+#Educacion .list .item .content .job{
     font-size: large;
 }
-#EXP .list .item .content .company{
+#Educacion .list .item .content .company{
     color: var(--color-rosa-oscuro);
 }
-#EXP .list .item .content .des{
+#Educacion .list .item .content .des{
     font-size: .6em;
     opacity: .7;
 }
-#EXP .list .item:nth-child(odd) .content{
+#Educacion .list .item:nth-child(odd) .content{
     grid-row-start: 1;
     grid-row-end: 2;
     display: flex;
     flex-direction: column;
     justify-content: flex-end;
 }
-#EXP .list .item:nth-child(odd) .time{
+#Educacion .list .item:nth-child(odd) .time{
     grid-row-start: 3;
     grid-row-end: 4;
     align-items: start;
 }
 /* Animaciones */
 @media screen and (min-width:500px) {
-    #EXP.active .list .item:nth-child(odd) .content{ 
+    #Educacion.active .list .item:nth-child(odd) .content{ 
         animation: slideTop 1s ease-out;
     }
-    #EXP.active .list .item:nth-child(odd) .time{ 
+    #Educacion.active .list .item:nth-child(odd) .time{ 
         animation: slideBottom 1.3s ease-out;
     }
-    #EXP.active .list .item:nth-child(even) .content{ 
+    #Educacion.active .list .item:nth-child(even) .content{ 
         animation: slideBottom 1s ease-out;
     }
-    #EXP.active .list .item:nth-child(even) .time{ 
+    #Educacion.active .list .item:nth-child(even) .time{ 
         animation: slideTop 1.3s ease-out;
     }
 }

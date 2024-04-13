@@ -1,10 +1,10 @@
 import {React, lazy } from "react";
-import '../Estilos/EXP.css';
+import '../Estilos/Educacion.css';
 import { FaGraduationCap, FaBook, FaReact} from "react-icons/fa";
-const ItemExp = lazy(()=>import('./ItemExp')) ;
+const ItemEdu = lazy(()=>import('./ItemEdu')) ;
 
 
-function EXP (){
+function Educacion (){
     const experience = [
         {
           time: "2020",
@@ -40,18 +40,18 @@ function EXP (){
         },
       ];
     return(
-      <section className="tab" id="EXP" >
+      <section className="tab" id="Educacion" >
           <div className="container">
                <div className="list">
                     {
-                        experience.map((exp)=>{
-                            return(<ItemExp 
-                                key={exp.job}
-                                time={exp.time}
-                                icon={exp.icon}
-                                job={exp.job}
-                                company={exp.company}
-                                des={exp.des}
+                        experience.map((edu)=>{
+                            return(<ItemEdu 
+                                key={edu.job}
+                                time={edu.time}
+                                icon={edu.icon}
+                                job={edu.job}
+                                company={edu.company}
+                                des={edu.des}
                             />)
                         })
                     }
@@ -61,4 +61,4 @@ function EXP (){
     );
 }
 
-export default EXP;
+export default Educacion;

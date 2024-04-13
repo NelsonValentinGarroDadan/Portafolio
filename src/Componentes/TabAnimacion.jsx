@@ -6,20 +6,19 @@ const TabSwitcher = () => {
     let linksNav = document.querySelectorAll('.link-nav');
     let zIndex = 2;
     let active = 'Presentacion';
-    let valueTab, tabActive, activeOld , linkActive , linkActiveOld;
-
+    let target,valueTab, tabActive, activeOld , linkActive , linkActiveOld;
     const handleClick = (e) => {
       e.preventDefault();
+      target = e.target.firstChild.firstChild ? e.target.firstChild.firstChild : e.target;
       valueTab = e.target.parentElement.parentElement.dataset.tab? e.target.parentElement.parentElement.dataset.tab : e.target.dataset.tab;
       /*Estilo de los links */
       linkActiveOld = document.querySelector('.link.active');
-      let target = e.target.parentElement.parentElement ? e.target.parentElement.parentElement : e.target;
       if(target.innerHTML === 'Ve mis habilidades'){
         linkActive = linksHeader[2];
-      }else if(e.target.innerHTML === 'Ve mi presentacion'){
+      }else if(target.innerHTML === 'Ve mi presentacion'){
         linkActive = linksHeader[0];
       }else{
-        linkActive = target;
+          linkActive = target;
       }
       
       if (linkActiveOld) linkActiveOld.classList.remove('active');

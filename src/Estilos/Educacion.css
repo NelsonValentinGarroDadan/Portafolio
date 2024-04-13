@@ -1,4 +1,4 @@
-#EXP{
+#Educacion{
     background-image: linear-gradient(
         45deg, var(--color-azul-oscuro-bg), var(--color-azulgris-oscuro-bg), var(--color-azulgris-bg )
     );
@@ -7,10 +7,10 @@
     align-items: center;
     justify-content: center;
 }
-#EXP .container{
+#Educacion .container{
     overflow: auto;
 }
-#EXP .list{
+#Educacion .list{
     height: 100%;
     width: max-content;
     display: flex;
@@ -20,7 +20,7 @@
     position: relative;
     z-index: 1;
 }
-#EXP .list::before{
+#Educacion .list::before{
     content: "";
     position: absolute;
     top: 50%;

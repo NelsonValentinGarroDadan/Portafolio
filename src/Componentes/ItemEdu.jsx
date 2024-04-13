@@ -1,6 +1,6 @@
 import React from "react";
-import '../Estilos/ItemExp.css';
-function ItemExp({time,icon:Icon,job,company,des}){
+import '../Estilos/ItemEdu.css';
+function ItemEdu({time,icon:Icon,job,company,des}){
     return(
         <div className="item">
             <div className="time">
@@ -24,4 +24,4 @@ function ItemExp({time,icon:Icon,job,company,des}){
     );
 }
 
-export default ItemExp;
+export default ItemEdu;
