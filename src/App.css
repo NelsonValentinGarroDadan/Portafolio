@@ -38,8 +38,8 @@
     padding-top: 50px;
     margin: auto;
 }
-
-.tab.active {
+@media screen and (min-width:760px) {
+  .tab.active {
     --x: 50%;
     --y: 50%;
     clip-path: circle(
@@ -47,8 +47,7 @@
     );
     animation: showTab 1s ease-in-out 1 forwards;
 }
-
-/* Media Querys */
+}
 @media screen and (min-width:500px) {
   .tab .container{
     visibility: hidden;

@@ -7,7 +7,7 @@ function Presentacion (){
         <section className="tab active" id="Inicio" >
             <div className="container">
                 <div className="avatar">
-                    <img fetchpriority="high" src='./Imagenes/avatar_sinbg.AVIF'  alt="avtar-pinguino"/>
+                    <img fetchpriority="high" src='./Imagenes/avatar_sinbg.webp'  alt="avtar-pinguino"/>
                 </div>
                 <div className="content">
                     <div className="name">Valentin Garro</div>

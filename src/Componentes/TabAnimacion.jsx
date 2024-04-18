@@ -34,10 +34,12 @@ const TabSwitcher = () => {
         zIndex++;
         tabActive.style.zIndex = zIndex;
         active = valueTab;
-
+        
         tabActive.style.setProperty('--x', e.clientX + 'px');
         tabActive.style.setProperty('--y', e.clientY + 'px');
         tabActive.classList.add('active');
+
+        // Modificacion de estilos mobile
       }
     };
     linksNav.forEach((a) => {
