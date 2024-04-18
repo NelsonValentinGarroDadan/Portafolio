@@ -2,16 +2,6 @@
     background-color: var(--color-violeta-oscuro );
     z-index: 2;
 }
-#Inicio::after{
-    content: "";
-    position: absolute;
-    top: 0;
-    left: 0;
-    transform: translate(var(--x),var(--y));
-    height: 100%;
-    width: 100%;
-    color: red;
-}
 #Inicio .avatar{
     text-align: right;
     height: 100%;
