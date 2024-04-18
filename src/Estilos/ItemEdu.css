@@ -50,7 +50,7 @@
     align-items: start;
 }
 /* Animaciones */
-@media screen and (min-width:500px) {
+
     #Educacion.active .list .item:nth-child(odd) .content{ 
         animation: slideTop 1s ease-out;
     }
@@ -63,6 +63,5 @@
     #Educacion.active .list .item:nth-child(even) .time{ 
         animation: slideTop 1.3s ease-out;
     }
-}
 
 

@@ -73,7 +73,7 @@
 }
 
 /* Animaciones */
-@media screen and (min-width:500px) {
+
     #Inicio.active .container .content{
         animation: slideRigthTop 1s ease-out;
     }
@@ -86,7 +86,6 @@
     #Inicio.active .content a{
         animation: slideRigth 1.3s ease-out;
     }
-}
 
 /* Media querys */
 @media screen and (max-width: 767px) {
