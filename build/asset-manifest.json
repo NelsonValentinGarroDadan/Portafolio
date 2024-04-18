@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/Portafolio/build/static/css/main.9c1ac6c7.css",
-    "main.js": "/Portafolio/build/static/js/main.363a986c.js",
+    "main.js": "/Portafolio/build/static/js/main.e04814f0.js",
     "static/css/923.eadf0738.chunk.css": "/Portafolio/build/static/css/923.eadf0738.chunk.css",
     "static/js/923.6c4b608b.chunk.js": "/Portafolio/build/static/js/923.6c4b608b.chunk.js",
     "static/css/763.34fe94b8.chunk.css": "/Portafolio/build/static/css/763.34fe94b8.chunk.css",
@@ -11,7 +11,7 @@
     "static/css/366.8c99f788.chunk.css": "/Portafolio/build/static/css/366.8c99f788.chunk.css",
     "static/js/366.d4ed3d63.chunk.js": "/Portafolio/build/static/js/366.d4ed3d63.chunk.js",
     "static/css/739.45373df5.chunk.css": "/Portafolio/build/static/css/739.45373df5.chunk.css",
-    "static/js/739.82343848.chunk.js": "/Portafolio/build/static/js/739.82343848.chunk.js",
+    "static/js/739.65941dcb.chunk.js": "/Portafolio/build/static/js/739.65941dcb.chunk.js",
     "static/css/917.46fbb53a.chunk.css": "/Portafolio/build/static/css/917.46fbb53a.chunk.css",
     "static/js/917.9983dd86.chunk.js": "/Portafolio/build/static/js/917.9983dd86.chunk.js",
     "static/js/790.a97935e7.chunk.js": "/Portafolio/build/static/js/790.a97935e7.chunk.js",
@@ -27,7 +27,7 @@
     "static/js/71.96331da4.chunk.js": "/Portafolio/build/static/js/71.96331da4.chunk.js",
     "index.html": "/Portafolio/build/index.html",
     "main.9c1ac6c7.css.map": "/Portafolio/build/static/css/main.9c1ac6c7.css.map",
-    "main.363a986c.js.map": "/Portafolio/build/static/js/main.363a986c.js.map",
+    "main.e04814f0.js.map": "/Portafolio/build/static/js/main.e04814f0.js.map",
     "923.eadf0738.chunk.css.map": "/Portafolio/build/static/css/923.eadf0738.chunk.css.map",
     "923.6c4b608b.chunk.js.map": "/Portafolio/build/static/js/923.6c4b608b.chunk.js.map",
     "763.34fe94b8.chunk.css.map": "/Portafolio/build/static/css/763.34fe94b8.chunk.css.map",
@@ -37,7 +37,7 @@
     "366.8c99f788.chunk.css.map": "/Portafolio/build/static/css/366.8c99f788.chunk.css.map",
     "366.d4ed3d63.chunk.js.map": "/Portafolio/build/static/js/366.d4ed3d63.chunk.js.map",
     "739.45373df5.chunk.css.map": "/Portafolio/build/static/css/739.45373df5.chunk.css.map",
-    "739.82343848.chunk.js.map": "/Portafolio/build/static/js/739.82343848.chunk.js.map",
+    "739.65941dcb.chunk.js.map": "/Portafolio/build/static/js/739.65941dcb.chunk.js.map",
     "917.46fbb53a.chunk.css.map": "/Portafolio/build/static/css/917.46fbb53a.chunk.css.map",
     "917.9983dd86.chunk.js.map": "/Portafolio/build/static/js/917.9983dd86.chunk.js.map",
     "790.a97935e7.chunk.js.map": "/Portafolio/build/static/js/790.a97935e7.chunk.js.map",
@@ -54,6 +54,6 @@
   },
   "entrypoints": [
     "static/css/main.9c1ac6c7.css",
-    "static/js/main.363a986c.js"
+    "static/js/main.e04814f0.js"
   ]
 }
