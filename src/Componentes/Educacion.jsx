@@ -38,6 +38,14 @@ function Educacion (){
           des:
             "Realicé un curso de introducción a React con una duración de 10 horas. Aunque no profundiza en todos los aspectos, me proporcionó los fundamentos necesarios para comenzar a trabajar con esta biblioteca y desarrollar aplicaciones web más dinámicas.",
         },
+        {
+          time: "2024",
+          icon: FaBook,
+          job: "Full Stack Henry",
+          company: "Plataforma de cursos online",
+          des:
+            "Actualmente me encuentro cursando el curso de Desarrollador Full Stack en Henry",
+        },
       ];
     return(
       <section className="tab" id="Educacion" >

@@ -15,7 +15,7 @@ function Presentacion (){
                         <span className="text-gradient"> Desarrolador Web Junior</span>
                     </div>
                     <div className="des">
-                    ¡Hola! Soy Valentin Garro, estudiante de la Tecnicatura Universitaria de Desarrollo de Software en la Universidad de la Punta, San Luis, Argentina. Me considero un apasionado desarrollador web con habilidades que abarcan desde HTML, CSS, JavaScript, Node.js, C#, C++, y .NET hasta Java, SQL, React y Android Studio. <br/>¡Estoy listo para enfrentar nuevos desafíos y aprovechar oportunidades de aprendizaje! <br></br>
+                    ¡Hola! Soy Valentin Garro, desarrollador web junior. Me considero un apasionado desarrollador web con habilidades que abarcan desde HTML, CSS, JavaScript y Node.js hasta MongoDB, SQL, React y Express. <br/>¡Estoy listo para enfrentar nuevos desafíos y aprovechar oportunidades de aprendizaje! <br></br>
                         <a data-tab="Habilidades" href="Habilidades" className="text-gradient link-nav">
                             Ve mis habilidades
                         </a>

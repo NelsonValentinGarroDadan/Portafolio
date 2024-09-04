@@ -20,24 +20,9 @@ function Habilidades(){
       "des": "Conocimientos sólidos en programación del lado del cliente para crear interactividad y mejorar la experiencia del usuario.",
     },
     {
-      "name": "Java",
-      "icon": "./Imagenes/Habilidades/java_icon.webp",
-      "des": "Familiaridad con la programación orientada a objetos y su aplicación en el desarrollo de aplicaciones empresariales.",
-    },
-    {
-      "name": "C#",
-      "icon": "./Imagenes/Habilidades/c_icon.webp",
-      "des": "Experiencia en el desarrollo de aplicaciones con el lenguaje de programación C# para plataformas Windows y .NET.",
-    },
-    {
       "name": "SQL",
       "icon": "./Imagenes/Habilidades/sql_icon.webp",
       "des": "Conocimientos en el diseño y administración de bases de datos relacionales para almacenar y gestionar datos de manera eficiente.",
-    },
-    {
-      "name": ".NET",
-      "icon": "./Imagenes/Habilidades/net_icon.webp",
-      "des": "Experiencia en el desarrollo de aplicaciones usando el framework .NET para crear soluciones robustas y escalables.",
     },
     {
       "name": "React",
@@ -58,11 +43,6 @@ function Habilidades(){
       "name": "Express.js",
       "icon": "./Imagenes/Habilidades/express_icon.webp",
       "des": "Experiencia en el desarrollo de aplicaciones web robustas utilizando el framework Express.js en conjunto con Node.js.",
-    },
-    {
-      "name": "Pug",
-      "icon": "./Imagenes/Habilidades/pug_icon.webp",
-      "des": "Familiaridad con el motor de plantillas Pug para simplificar la creación de vistas en aplicaciones web.",
     },
   ];
     return(

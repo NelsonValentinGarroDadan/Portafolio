@@ -1,2 +1,0 @@
-.link-nav{color:var(--color-blanco);font-size:small;position:relative;transition:all ease-in-out}.link-nav:after{background-color:var(--color-blanco);border-radius:.2rem;bottom:-.3rem;content:"";height:.1rem;left:50%;position:absolute;transform:translateX(-50%);transition:all .4s ease-in-out;width:0}.link-nav:hover:after{width:50%}.link-nav.active:after{width:100%}
-/*# sourceMappingURL=139.caf8da7e.chunk.css.map*/
