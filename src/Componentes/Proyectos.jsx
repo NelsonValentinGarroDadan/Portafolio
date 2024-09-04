@@ -39,7 +39,7 @@ function Proyectos(){
         }
         ,
         {
-            "link" : "https://nelsonvalentingarrodadan.github.io/Netflis/",
+            "link" : "https://github.com/NelsonValentinGarroDadan/Netflis",
             "img" : "./Imagenes/Proyectos/netflis.webp",
             "name" : "Netflis",
             "des" : 'Netflis es una plataforma de streaming 100% original (por favor, ignoren las similitudes con cualquier otra plataforma que puedan conocer).',
@@ -48,7 +48,7 @@ function Proyectos(){
         }
         ,
         {
-            "link" : "https://nelsonvalentingarrodadan.github.io/NetflisAPI/",
+            "link" : "https://github.com/NelsonValentinGarroDadan/NetflisAPI",
             "img" : "./Imagenes/Proyectos/netflis.webp",
             "name" : "Netflis API",
             "des" : 'API que devuelve peliculas de una MongoDB.',
