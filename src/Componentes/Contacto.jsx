@@ -21,7 +21,7 @@ function Contacto(){
                     </div>
                     <div className="item">
                         <FaEnvelope />
-                        <a href="mailto:nelsonvgarro@sanluis.edu.ar">nelsonvgarro@sanluis.edu.ar</a>
+                        <a href="mailto:nelsonvgarro@sanluis.edu.ar">nelsonvgarrodadan@gmail.com</a>
                     </div>
                     <div className="item">
                         <FaFile />
