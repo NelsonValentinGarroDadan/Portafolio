@@ -57,9 +57,9 @@ function Proyectos(){
         },
         {
             "link" : "https://github.com/NelsonValentinGarroDadan/Ideas",
-            "img" : "../Imagenes/Proyectos/ideas.webp",
+            "img" : "./Imagenes/Proyectos/ideas.webp",
             "name" : "Mural de Ideas",
-            "des" : 'Aplicación web para compartir y visualizar ideas. Desplegada en Render usando una base de datos mongo.',
+            "des" : 'Aplicación web para compartir y visualizar ideas. Desplegada en Render y con una base de datos mongo.',
             "job" : "TypeScript-Express-MongoDB",
             "time" : "10/09/2024 ",
         }
