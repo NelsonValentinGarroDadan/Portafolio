@@ -61,7 +61,7 @@ function Proyectos(){
             "name" : "Mural de Ideas",
             "des" : 'Aplicación web para compartir y visualizar ideas. Desplegada en Render usando una base de datos mongo.',
             "job" : "TypeScript-Express-MongoDB",
-            "time" : "03/09/2024 ",
+            "time" : "10/09/2024 ",
         }
     ]
     return(
