@@ -57,9 +57,9 @@ function Proyectos(){
         },
         {
             "link" : "https://github.com/NelsonValentinGarroDadan/Ideas",
-            "img" : "./Imagenes/",
-            "name" : "Idia Mural",
-            "des" : 'Idea Mural es una aplicación web para agregar y visualizar ideas. Desplegada en Render.',
+            "img" : "./Imagenes/ideas.webp",
+            "name" : "Mural de Ideas",
+            "des" : 'Aplicación web para compartir y visualizar ideas. Desplegada en Render usando una base de datos mongo.',
             "job" : "TypeScript-Express-MongoDB",
             "time" : "03/09/2024 ",
         }
