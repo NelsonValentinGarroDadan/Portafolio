@@ -54,6 +54,14 @@ function Proyectos(){
             "des" : 'API que devuelve peliculas de una MongoDB.',
             "job" : "JS-Node-Moongose-MongoDB",
             "time" : "03/09/2024 ",
+        },
+        {
+            "link" : "https://github.com/NelsonValentinGarroDadan/Ideas",
+            "img" : "./Imagenes/",
+            "name" : "Idia Mural",
+            "des" : 'Idea Mural es una aplicación web para agregar y visualizar ideas. Desplegada en Render.',
+            "job" : "TypeScript-Express-MongoDB",
+            "time" : "03/09/2024 ",
         }
     ]
     return(
