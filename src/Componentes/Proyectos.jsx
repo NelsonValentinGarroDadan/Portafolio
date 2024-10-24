@@ -3,7 +3,7 @@ import '../Estilos/Proyectos.css';
 const ItemProyecto = lazy(()=>import('./ItemProyecto'));
 function Proyectos(){
     const proyects =[
-        /*{
+        {
             "link" : "https://github.com/NelsonValentinGarroDadan/testimonios",
             "img" : "./Imagenes/Proyectos/testimonios.webp",
             "name" : "Listado de testimonios",
@@ -62,7 +62,7 @@ function Proyectos(){
             "des" : 'Aplicación web para compartir y visualizar ideas. Desplegada en Render y con una base de datos mongo.',
             "job" : "TypeScript-Express-MongoDB",
             "time" : "10/09/2024 ",
-        }*/
+        }
     ]
     return(
         <section className="tab" id="Proyectos">
