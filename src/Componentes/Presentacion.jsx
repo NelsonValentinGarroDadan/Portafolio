@@ -12,10 +12,10 @@ function Presentacion (){
                 <div className="content">
                     <div className="name">Valentin Garro</div>
                     <div className="job">
-                        <span className="text-gradient"> Desarrolador Web Junior</span>
+                        <span className="text-gradient"> Desarrollador Web </span>
                     </div>
                     <div className="des">
-                    ¡Hola! Soy Valentin Garro, desarrollador web junior. Me considero un apasionado desarrollador web con habilidades que abarcan desde HTML, CSS, JavaScript y Node.js hasta MongoDB, SQL, React y Express. <br/>¡Estoy listo para enfrentar nuevos desafíos y aprovechar oportunidades de aprendizaje! <br></br>
+                    Hola, soy Valentín Garro. Me dedico a desarrollar aplicaciones web utilizando tecnologías como JavaScript, TypeScript, React, Node.js, NestJS, Next.js, TailwindCSS, MongoDB y PostgreSQL. Disfruto creando soluciones prácticas y funcionales que marcan la diferencia. ¡Estoy listo para enfrentar nuevos desafíos y seguir creciendo con cada experiencia! <br></br>
                         <a data-tab="Habilidades" href="Habilidades" className="text-gradient link-nav">
                             Ve mis habilidades
                         </a>

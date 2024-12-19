@@ -1,11 +1,11 @@
 {
   "files": {
     "main.css": "/Portafolio/build/static/css/main.9c1ac6c7.css",
-    "main.js": "/Portafolio/build/static/js/main.a096664d.js",
+    "main.js": "/Portafolio/build/static/js/main.ce28350a.js",
     "static/css/923.eadf0738.chunk.css": "/Portafolio/build/static/css/923.eadf0738.chunk.css",
     "static/js/923.6c4b608b.chunk.js": "/Portafolio/build/static/js/923.6c4b608b.chunk.js",
     "static/css/763.e6e7f5cf.chunk.css": "/Portafolio/build/static/css/763.e6e7f5cf.chunk.css",
-    "static/js/763.15b1d7b9.chunk.js": "/Portafolio/build/static/js/763.15b1d7b9.chunk.js",
+    "static/js/763.a09dbe58.chunk.js": "/Portafolio/build/static/js/763.a09dbe58.chunk.js",
     "static/css/808.6b73a104.chunk.css": "/Portafolio/build/static/css/808.6b73a104.chunk.css",
     "static/js/808.a07ae2f2.chunk.js": "/Portafolio/build/static/js/808.a07ae2f2.chunk.js",
     "static/css/366.66aeb198.chunk.css": "/Portafolio/build/static/css/366.66aeb198.chunk.css",
@@ -27,11 +27,11 @@
     "static/js/71.96331da4.chunk.js": "/Portafolio/build/static/js/71.96331da4.chunk.js",
     "index.html": "/Portafolio/build/index.html",
     "main.9c1ac6c7.css.map": "/Portafolio/build/static/css/main.9c1ac6c7.css.map",
-    "main.a096664d.js.map": "/Portafolio/build/static/js/main.a096664d.js.map",
+    "main.ce28350a.js.map": "/Portafolio/build/static/js/main.ce28350a.js.map",
     "923.eadf0738.chunk.css.map": "/Portafolio/build/static/css/923.eadf0738.chunk.css.map",
     "923.6c4b608b.chunk.js.map": "/Portafolio/build/static/js/923.6c4b608b.chunk.js.map",
     "763.e6e7f5cf.chunk.css.map": "/Portafolio/build/static/css/763.e6e7f5cf.chunk.css.map",
-    "763.15b1d7b9.chunk.js.map": "/Portafolio/build/static/js/763.15b1d7b9.chunk.js.map",
+    "763.a09dbe58.chunk.js.map": "/Portafolio/build/static/js/763.a09dbe58.chunk.js.map",
     "808.6b73a104.chunk.css.map": "/Portafolio/build/static/css/808.6b73a104.chunk.css.map",
     "808.a07ae2f2.chunk.js.map": "/Portafolio/build/static/js/808.a07ae2f2.chunk.js.map",
     "366.66aeb198.chunk.css.map": "/Portafolio/build/static/css/366.66aeb198.chunk.css.map",
@@ -54,6 +54,6 @@
   },
   "entrypoints": [
     "static/css/main.9c1ac6c7.css",
-    "static/js/main.a096664d.js"
+    "static/js/main.ce28350a.js"
   ]
 }
