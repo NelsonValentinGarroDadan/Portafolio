@@ -8,17 +8,16 @@
     text-decoration: none;
     border-radius: 30px;
     background-color: var(--color-naranja-claro);
-    overflow: hidden;
     position: relative;
-    cursor: pointer;
     color: var(--color-azulgris-bg-exp);
     display: flex;
     justify-content: space-between;
     align-items: center;
     flex-direction: column;
+    transition: all .3s ease-in-out;
 }
-#Proyectos .list .item:hover{
-    filter: blur(1px);
+#Proyectos .list .item .links a:hover{
+    transform: scale(1.1);
     color:  var(--color-azulgris-bg-exp);
 }
 #Proyectos .list .item .name{
@@ -43,10 +42,25 @@
 #Proyectos .list .item .job{
     font-weight: bold;
 }
+#Proyectos .list .item .links{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 10px;
+    border-top: 1px solid var(--color-naranja-fuerte);
+    width: 90%;
+    flex-direction: column;
+}
+#Proyectos .list .item .links a {
+    font-size: small;
+}
 @media screen and (min-width: 1200px) {
     #Proyectos .list .item .des{
         font-size: small;
         height: 8em;
+    }
+    #Proyectos .list .item .links{
+        flex-direction: row;
     }
 }
 @media screen and (max-width: 991px) {

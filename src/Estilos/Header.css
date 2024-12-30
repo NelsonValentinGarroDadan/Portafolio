@@ -13,6 +13,10 @@ header nav{
     justify-content: space-around;
     align-items: center;
     transition: all ease-in-out;
+    backdrop-filter: blur(10px); 
+    -webkit-backdrop-filter: blur(10px);
+    height: 3em;
+    border-radius: 25px;
 }
 @media screen and (max-width: 576px) {
     header nav  {

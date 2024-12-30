@@ -1,0 +1,2 @@
+#Proyectos{background-color:var(--color-marron-claro-bg);color:var(--color-azulgris-bg-exp);overflow:auto}#Proyectos .list{grid-gap:20px;display:grid;gap:20px;grid-template-columns:repeat(3,1fr);padding:30px}#Proyectos .container{overflow:auto}::-webkit-scrollbar{width:0}#Proyectos.active .list{animation:slideBottom 1s ease-out}@media screen and (max-width:767px){#Proyectos .list{grid-template-columns:repeat(2,1fr)}}@media screen and (max-width:576px){#Proyectos .list{grid-template-columns:repeat(1,1fr)}}
+/*# sourceMappingURL=739.d4ea2366.chunk.css.map*/

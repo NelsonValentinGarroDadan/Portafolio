@@ -41,10 +41,10 @@ function Educacion (){
         {
           time: "2024",
           icon: FaBook,
-          job: "Full Stack Henry",
-          company: "Plataforma de cursos online",
+          job: "Full Stack Developer",
+          company: "Bootcamp intensivo de desarrollo web",
           des:
-            "Actualmente me encuentro cursando el curso de Desarrollador Full Stack en Henry",
+            "Completé un bootcamp intensivo de más de 800 horas que abarcó tanto el frontend como el backend, adquiriendo habilidades sólidas en tecnologías modernas como React, Node.js, Express y PostgreSQL. El programa incluyó proyectos prácticos que me permitieron aplicar y consolidar mis conocimientos en desarrollo web.",
         },
       ];
     return(

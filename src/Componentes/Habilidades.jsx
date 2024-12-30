@@ -20,14 +20,34 @@ function Habilidades(){
       "des": "Conocimientos sólidos en programación del lado del cliente para crear interactividad y mejorar la experiencia del usuario.",
     },
     {
-      "name": "SQL",
-      "icon": "./Imagenes/Habilidades/sql_icon.webp",
-      "des": "Conocimientos en el diseño y administración de bases de datos relacionales para almacenar y gestionar datos de manera eficiente.",
+      "name": "TypeScript",
+      "icon": "./Imagenes/Habilidades/ts_icon.webp",
+      "des": "Habilidad en la programación tipada para mejorar la escalabilidad y mantenibilidad de aplicaciones en proyectos frontend y backend.",
+    },
+    {
+      "name": "TypeORM",
+      "icon": "./Imagenes/Habilidades/typeorm_icon.webp",
+      "des": "Experiencia en el manejo de ORM para interactuar con bases de datos relacionales de manera eficiente y orientada a objetos.",
+    },
+    {
+      "name": "PostgreSQL",
+      "icon": "./Imagenes/Habilidades/pgsql_icon.webp",
+      "des": "Experiencia en bases de datos relacionales avanzadas con enfoque en consultas eficientes y modelado de datos complejo.",
+    },
+    {
+      "name": "MongoDB",
+      "icon": "./Imagenes/Habilidades/mongo_icon.webp",
+      "des": "Conocimientos en bases de datos no relacionales para manejar datos flexibles y escalables en aplicaciones modernas.",
     },
     {
       "name": "React",
       "icon": "./Imagenes/Habilidades/react_icon.webp",
       "des": "Habilidad en el desarrollo de interfaces de usuario reactivas y eficientes utilizando la biblioteca React.",
+    },
+    {
+      "name": "Next.js",
+      "icon": "./Imagenes/Habilidades/nextjs_icon.webp",
+      "des": "Dominio en el desarrollo de aplicaciones web rápidas y SEO-friendly con capacidades de renderizado del lado del servidor.",
     },
     {
       "name": "Bootstrap",
@@ -44,7 +64,23 @@ function Habilidades(){
       "icon": "./Imagenes/Habilidades/express_icon.webp",
       "des": "Experiencia en el desarrollo de aplicaciones web robustas utilizando el framework Express.js en conjunto con Node.js.",
     },
+    {
+      "name": "NestJS",
+      "icon": "./Imagenes/Habilidades/nestjs_icon.webp",
+      "des": "Habilidad en el desarrollo de aplicaciones backend modulares y escalables con arquitectura orientada a microservicios.",
+    },
+    {
+      "name": "JWT",
+      "icon": "./Imagenes/Habilidades/jwt_icon.webp",
+      "des": "Experiencia en la implementación de autenticación y autorización segura utilizando JSON Web Tokens.",
+    },
+    {
+      "name": "Scrum",
+      "icon": "./Imagenes/Habilidades/scrum_icon.webp",
+      "des": "Conocimientos en la metodología ágil Scrum para organizar y desarrollar proyectos de manera colaborativa y eficiente.",
+    },
   ];
+  
     return(
         <section className="tab" id="Habilidades">
             <div className="container">

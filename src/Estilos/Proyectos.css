@@ -6,8 +6,8 @@
 #Proyectos .list{
     display: grid;
     grid-template-columns: repeat(3,1fr);
-    gap: 30px;
-    padding: 50px;
+    gap: 20px;
+    padding: 30px;
 }
 #Proyectos .container{
     overflow: auto;

@@ -17,12 +17,12 @@
     top: 50%;
     transform: translateY(-50%);
     left: 50px;
-    width: 500px;
+    width: 700px;
     max-width: 80%;
 }
 #Inicio .content .name,
 #Inicio .content .job{
-    font-size: 5em;
+    font-size: 6em;
     font-family: Righteous;
     line-height: 1em;
 }
