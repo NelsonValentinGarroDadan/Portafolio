@@ -69,7 +69,7 @@ function Proyectos(){
             "repoLink" : "https://github.com/chi-bosio/Buddify",
             "deployLinkApi": "https://buddify-api-ju0h.onrender.com/api",
             "repoLinkApi" : "https://github.com/chi-bosio/Buddify_API",
-            "img" : "./Imagenes/Proyectos/PostgreSQL",
+            "img" : "./Imagenes/Proyectos/buddify.webp",
             "name" : "Buddify",
             "des" : "App web de actividades en grupo a ciegas con geolocalización y chat en tiempo real. Incluye autenticación OAuth 2.0 y funcionalidades premium.",
             "job" : "Next.js NestJS MongoDB",
