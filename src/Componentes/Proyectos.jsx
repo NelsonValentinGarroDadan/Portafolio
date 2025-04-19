@@ -82,7 +82,16 @@ function Proyectos(){
             "des" : "Juego en línea donde los usuarios adivinan canciones de un artista escuchando fragmentos. Utiliza Next.js y NestJS para una experiencia interactiva y amigable.",
             "job" : "Next.js TypeScript Express MongoDB",
             "time" : "2024-12-15",
-        }
+        },
+        {
+            "deployLink": "https://e-commerce-mu-silk-58.vercel.app/",
+            "repoLink" : "https://github.com/NelsonValentinGarroDadan/E-commerce-Challenge-BC",
+            "img": "./Imagenes/Proyectos/ecomerceChanllenge.webp",
+            "name": "E-commerce Challenge",
+            "des": "Challenge técnico para construir una tienda online con Next.js, Tailwind y React Query. Incluye catálogo, carrito persistente, autenticación simulada y diseño responsive con tema claro/oscuro.",
+            "job": "Next.js Tailwind ReactQuery Zustand",
+            "time": "2025-04-19"
+          }
     ];
     proyects.sort((a,b)=>new Date(b.time) - new Date(a.time));
     return(

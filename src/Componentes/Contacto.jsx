@@ -25,7 +25,7 @@ function Contacto(){
                     </div>
                     <div className="item">
                         <FaFile />
-                        <a href="./CV-IT.pdf" download="CV-IT" target="blank"  rel="noopener noreferrer">Ve mi CV!</a>
+                        <a href="./CV-Valentin-Garro.pdf" download="CV-Valentin-Garro" target="blank"  rel="noopener noreferrer">Ve mi CV!</a>
                     </div>
                 </div>
             </div>
