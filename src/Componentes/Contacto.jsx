@@ -17,7 +17,7 @@ function Contacto(){
                 <div className="list">
                     <div className="item">
                         <FaLinkedin />
-                        <a href="https://www.linkedin.com/in/valentín-garro" target="blank">Valentin Garro</a>
+                        <a href="https://www.linkedin.com/in/valentin-garro" target="blank">Valentin Garro</a>
                     </div>
                     <div className="item">
                         <FaEnvelope />

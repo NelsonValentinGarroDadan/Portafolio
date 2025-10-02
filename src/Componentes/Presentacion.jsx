@@ -10,12 +10,15 @@ function Presentacion (){
                     <img fetchpriority="high" src='./Imagenes/avatar_sinbg.webp'  alt="avtar-pinguino"/>
                 </div>
                 <div className="content">
-                    <div className="name">Valentin Garro</div>
+                    <h1 className="name">Valentin Garro</h1>
                     <div className="job">
-                        <span className="text-gradient"> Desarrollador Web </span>
+                        <span className="text-gradient"> FullStack Developer </span>
                     </div>
                     <div className="des">
-                        Hola, soy Valentín Garro. Me dedico a desarrollar aplicaciones web utilizando tecnologías como JavaScript, TypeScript, React, Node.js, NestJS, Next.js, TailwindCSS, MongoDB y PostgreSQL.<br/> Disfruto creando soluciones prácticas y funcionales que marcan la diferencia. <br/>¡Estoy listo para enfrentar nuevos desafíos y seguir creciendo con cada experiencia! <br></br>
+                        Full Stack Developer con fuerte enfoque en Backend, especializado en Node.js, NestJS, React y TypeScript.
+Me adapto rápidamente a nuevos entornos y proyectos, analizando problemas con claridad y proponiendo soluciones eficientes.
+Busco siempre un equilibrio entre un código sólido y entregas rápidas de producto, asegurando valor real para el equipo y los usuarios.
+Trabajo de manera colaborativa, aprendiendo de cada desafío sin perder seguridad en mis capacidades técnicas.
                     </div>
                     <div className="btn-skills">
                         <a data-tab="Habilidades" href="Habilidades" className="text-gradient link-nav">
