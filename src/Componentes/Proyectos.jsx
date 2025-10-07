@@ -91,7 +91,16 @@ function Proyectos(){
             "des": "Challenge técnico para construir una tienda online con Next.js, Tailwind y React Query. Incluye catálogo, carrito persistente, autenticación simulada y diseño responsive con tema claro/oscuro.",
             "job": "Next.js Tailwind ReactQuery Zustand",
             "time": "2025-04-19"
-          }
+        },
+        {
+            deployLink: "https://nelsonvalentingarrodadan.github.io/NovaLink",
+            repoLink: "https://github.com/NelsonValentinGarroDadan/NovaLink",
+            img: "./Imagenes/Proyectos/NovaLink.webp",
+            name: "NovaLink",
+            des: "Proyecto integrador de la materia Web 1. Sitio web estático desarrollado con HTML, CSS y JavaScript, con navegación responsive, menú burger y formulario de contacto con validación y mensaje de éxito.",
+            job: "HTML CSS JavaScript",
+            time: "2025-10-07"
+        }
     ];
     proyects.sort((a,b)=>new Date(b.time) - new Date(a.time));
     return(
