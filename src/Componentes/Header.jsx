@@ -5,7 +5,7 @@ function Header(){
     const links=
         [
             {"name": "Inicio", "active" : true},
-            {"name": "Educacion" ,"active": false},
+            {"name": "Trayectoria" ,"active": false},
             {"name":"Habilidades" , "active" : false},
             {"name":"Proyectos" , "active" : false},
             {"name":"Contacto" , "active" : false},

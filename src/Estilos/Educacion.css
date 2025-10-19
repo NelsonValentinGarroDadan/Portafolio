@@ -1,4 +1,5 @@
-#Educacion{
+
+#Trayectoria{
     background-image: linear-gradient(
         45deg, var(--color-azul-oscuro-bg), var(--color-azulgris-oscuro-bg), var(--color-azulgris-bg )
     );
@@ -6,26 +7,39 @@
     display: flex;
     align-items: center;
     justify-content: center;
+    padding: 50px 0;
+
+    overflow: scroll;
 }
-#Educacion .container{
-    overflow: auto;
-}
-#Educacion .list{
+
+#Trayectoria .container{
+    width: 100%;
+    max-width: 1200px;
     height: 100%;
-    width: max-content;
+    overflow-y: auto;
+    overflow-x: hidden;
+}
+
+#Trayectoria .list{
+    height: max-content;
+    width: 100%;
     display: flex;
-    justify-content: left;
-    padding-left: 50px;
-    gap: 20px;
+    flex-direction: column;
+    align-items: center;
+    gap: 40px;
     position: relative;
     z-index: 1;
+    padding: 40px 0;
 }
-#Educacion .list::before{
+
+#Trayectoria .list::before{
     content: "";
     position: absolute;
-    top: 50%;
-    height: 2px;
-    width: 100%;
+    left: 50%;
+    transform: translateX(-50%);
+    top: 0;   
+    height: calc(100% - 40px);   
+    width: 2px;
     background-color: var(--color-azulgris-bg-exp);
     z-index: -1;
 }
