@@ -8,31 +8,36 @@ function ItemProyecto({ img, name, des, job, time, deployLink, repoLink, deployL
             <img src={img} alt={`${name}`} />
             <div className="name">{name}</div>
             <div className="des">{des}</div>
+            {
+               (deployLink || deployLinkApi || repoLink || repoLinkApi)
+               && (
+                <div className="links">
+                    {deployLink && (
+                        <a href={deployLink} target="_blank" rel="noopener noreferrer" className="link-button">
+                            Deploy 
+                        </a>
+                    )}
+                    {deployLinkApi && (
+                        <a href={deployLinkApi} target="_blank" rel="noopener noreferrer" className="link-button">
+                            Deploy Api
+                        </a>
+                    )}
+                    {repoLink && (
+                        <a href={repoLink} target="_blank" rel="noopener noreferrer" className="link-button">
+                            Repositorio
+                        </a>
+                        
+                    )}
+                    {repoLinkApi && (
+                        <a href={repoLinkApi} target="_blank" rel="noopener noreferrer" className="link-button">
+                            Repositorio Api
+                        </a>
+                        
+                    )}
+                </div>
 
-            <div className="links">
-                {deployLink && (
-                    <a href={deployLink} target="_blank" rel="noopener noreferrer" className="link-button">
-                        Deploy 
-                    </a>
-                )}
-                {deployLinkApi && (
-                    <a href={deployLinkApi} target="_blank" rel="noopener noreferrer" className="link-button">
-                        Deploy Api
-                    </a>
-                )}
-                {repoLink && (
-                    <a href={repoLink} target="_blank" rel="noopener noreferrer" className="link-button">
-                        Repositorio
-                    </a>
-                    
-                )}
-                {repoLinkApi && (
-                    <a href={repoLinkApi} target="_blank" rel="noopener noreferrer" className="link-button">
-                        Repositorio Api
-                    </a>
-                    
-                )}
-            </div>
+               )
+            }
 
             <div className="author">
                 <div className="job">{job}</div>

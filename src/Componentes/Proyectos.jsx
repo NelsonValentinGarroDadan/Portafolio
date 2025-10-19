@@ -93,6 +93,42 @@ function Proyectos(){
             "time": "2025-04-19"
         },
         {
+        "img" : "./Imagenes/Proyectos/plataforma_inmobiliaria.webp",
+        "name" : "Plataforma Integral de Administración Inmobiliaria (Full-Stack)",
+        "des" : "Coradir S.A. Lideré la reestructuración full-stack (Next.js/Express.js) de un sistema inmobiliario existente. Implementé una arquitectura modular robusta (JWT, Prisma, Swagger, manejo de errores) y lógica avanzada para cálculo de intereses (IPC/mora), multas y gestión contractual.",
+        "job" : "Next.js, Express.js, TypeScript, Tailwind CSS, Redux, Zustand, JWT, Prisma, PostgreSQL, Swagger.",
+        "time" : "2025-08-15",
+        "company": "Coradir S.A.", // Añadido para mejor identificación visual si tu componente lo usa.
+        },
+        // 2. Espejo Mágico
+        {
+            "img" : "./Imagenes/Proyectos/espejo_magico.webp",
+            "name" : "Prototipo de Interfaz Inteligente (GPT Realtime/TTS)",
+            "des" : "Coradir S.A. Prototipo interactivo basado en investigación try-it-out. Integración de GPT en tiempo real para conversación, Text-to-Speech (TTS) y FluxContext para la gestión de estado. Demostración de adopción rápida de tecnologías de IA complejas.",
+            "job" : "TypeScript, Node.js, GPT Realtime, TTS APIs, FluxContext.",
+            "time" : "2025-07-20", 
+            "company": "Coradir S.A.",
+        },
+        // 3. Coradir Homes (Más reciente de las landings)
+        {
+            "img" : "./Imagenes/Proyectos/coradir_homes.webp",
+            "name" : "Landing Page: Coradir Homes (Lead Generation)",
+            "des" : "Coradir S.A. Desarrollo de landing extensa (Next.js/Tailwind) para la rama Homes. Proyecto finalizado con alta UX/UI y sistema de Lead Generation automatizado: n8n orquesta datos tras la validación de consultas mediante IA.",
+            "job" : "Next.js, Tailwind CSS, TypeScript, n8n, Express, PostgreSQL, IA.",
+            "time" : "2025-07-15", 
+            "company": "Coradir S.A.",
+        },
+        // 4. Coradir Seguridad (Con URL pública)
+        {
+            "deployLink": "https://seguridad.coradir.com.ar/",
+            "img" : "./Imagenes/Proyectos/coradir_seguridad.webp",
+            "name" : "Landing Page: Coradir Seguridad (Desplegada)",
+            "des" : "Coradir S.A. Desarrollo full-stack (Next.js/Tailwind) para la rama Seguridad. Implementé sistema de Lead Generation en producción: n8n orquesta datos tras la validación de consultas mediante IA (similar a Homes). Diseño responsive validado por auditorías.",
+            "job" : "Next.js, Tailwind CSS, TypeScript, n8n, Express, PostgreSQL, IA.",
+            "time" : "2025-07-01", 
+            "company": "Coradir S.A.",
+        },
+        {
             deployLink: "https://nelsonvalentingarrodadan.github.io/NovaLink",
             repoLink: "https://github.com/NelsonValentinGarroDadan/NovaLink",
             img: "./Imagenes/Proyectos/NovaLink.webp",

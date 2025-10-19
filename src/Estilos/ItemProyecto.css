@@ -11,7 +11,7 @@
     position: relative;
     color: var(--color-azulgris-bg-exp);
     display: flex;
-    justify-content: space-between;
+    justify-content: start;
     align-items: center;
     flex-direction: column;
     transition: all .3s ease-in-out;
@@ -28,14 +28,14 @@
 #Proyectos .list .item  .des{
     padding: 0 10px 10px 10px;
     font-size: small;
-    height: 7rem;
+    height: 100%;
 }
 #Proyectos .list .item  .author{
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding: 10px;
-    height: 2em;
+     
     border-top: 1px solid var(--color-naranja-fuerte);
     width: 90%;
 }
@@ -56,8 +56,7 @@
 }
 @media screen and (min-width: 1200px) {
     #Proyectos .list .item .des{
-        font-size: small;
-        height: 8em;
+        font-size: small; 
     }
     #Proyectos .list .item .links{
         flex-direction: row;
@@ -65,18 +64,11 @@
 }
 @media screen and (max-width: 991px) {
     #Proyectos .list .item .des{
-        font-size: smaller;
-        height: 12em;
+        font-size: smaller;  
     }
 }
 @media screen and (max-width: 576px) {
     #Proyectos .list .item .des{
-        font-size: small;
-        height: 7em;
+        font-size: small;  
     }
-}
-@media screen and (max-width: 480px) {
-    #Proyectos .list .item .des{
-        height:auto;
-    }
-}
+} 
